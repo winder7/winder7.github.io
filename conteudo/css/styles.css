@@ -1,0 +1,678 @@
+/*   
+ * Template Name: devAid - Responsive Website Template for developers
+ * Version: 1.0
+ * Author: Xiaoying Riley at 3rd Wave Media
+ * Website: http://themes.3rdwavemedia.com/
+ * Twitter: @3rdwave_themes
+*/
+/* Default */
+/* ======= Base ======= */
+body {
+  font-family: 'Lato', arial, sans-serif;
+  color: #444444;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #17baef;
+}
+a {
+  color: #17baef;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #0e98c5;
+}
+.btn,
+a.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-family: 'Montserrat', arial, sans-serif;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+.btn .fa,
+a.btn .fa {
+  margin-right: 5px;
+}
+.btn:focus,
+a.btn:focus {
+  color: #fff;
+}
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: #074f66;
+  border: 1px solid #074f66;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: #053c4e;
+  border: 1px solid #053c4e;
+  color: #fff;
+}
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  background: #eebf3f;
+  border: 1px solid #eebf3f;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
+  background: #ecb728;
+  border: 1px solid #ecb728;
+  color: #fff;
+  text-decoration-color: #000000;
+}
+.text-highlight {
+  color: #074f66;
+}
+.offset-header {
+  padding-top: 90px;
+}
+pre code {
+  font-size: 16px;
+}
+/* ======= CABEÇALHO ======= */
+.header {
+  padding: 10px 0;
+  background: #17baef;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+}
+.header.navbar-fixed-top {
+  background: #fff;
+  z-index: 9999;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.header.navbar-fixed-top .logo a {
+  color: #17baef;
+}
+.header.navbar-fixed-top .main-nav .nav .nav-item a {
+  color: #666666;
+}
+.header .logo {
+  margin: 0;
+  font-size: 26px;
+  padding-top: 10px;
+}
+.header .logo a {
+  color: #fff; /* 1º cor do nome*/
+}
+.header .logo a:hover {
+  text-decoration: none;
+}
+.header .main-nav button {
+  background: #074f66;
+  color: #fff !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.header .main-nav button:focus {
+  outline: none;
+}
+.header .main-nav button .icon-bar {
+  background-color: #fff;
+}
+.header .main-nav .navbar-collapse {
+  padding: 0;
+}
+.header .main-nav .nav .nav-item {
+  font-weight: normal;
+  margin-right: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+.header .main-nav .nav .nav-item.active a {
+  color: #17baef;
+  background: none;
+}
+.header .main-nav .nav .nav-item a {
+  color: #0a7396;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  font-size: 14px;
+  padding: 15px 10px;
+}
+.header .main-nav .nav .nav-item a:hover {
+  color: #074f66;
+  background: none;
+}
+.header .main-nav .nav .nav-item a:focus {
+  outline: none;
+  background: none;
+}
+.header .main-nav .nav .nav-item a:active {
+  outline: none;
+  background: none;
+}
+.header .main-nav .nav .nav-item.active {
+  color: #17baef;
+}
+.header .main-nav .nav .nav-item.last {
+  margin-right: 0;
+}
+/* ======= PRINCIPAL ======= */
+.principal {
+  background: #17baef;
+  color: #fff;
+  padding-top: 230px; /*Altura da margem superior*/
+}
+.principal .title {
+  font-size: 98px;
+  color: #074f66;
+  margin-top: 0;
+}
+.principal .title .highlight {
+  color: #eebf3f;
+}
+.principal .intro {
+  font-size: 28px;
+  max-width: 680px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.principal .btns .btn {
+  margin-right: 15px;
+  font-size: 18px;
+  padding: 8px 30px;
+  margin-bottom: 350px;/*Tamanho do final da pagina*/
+}
+.principal .meta {
+  margin-top: 120px;
+  margin-bottom: 30px;
+  color: #0a7396;
+}
+.principal .meta li {
+  margin-right: 15px;
+}
+.principal .meta a {
+  color: #0a7396;
+}
+.principal .meta a:hover {
+  color: #074f66;
+}
+.principal .social-media {
+  background: #0c86ae;
+  padding: 10px 0;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #FF0000; 
+}
+.principal .social-media li {
+  margin-top: 15px;
+}
+.principal .social-media li.facebook-like {
+  margin-top: 0;
+  position: relative;
+  top: -5px;
+}
+/* ======= introducao ======= */
+.introducao {
+  padding: 20px 0;
+  /*background: #f5f5f5;*/
+  margin-bottom: 300px;
+}
+.introducao .title {
+  color: #074f66;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.introducao .intro {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.introducao .item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.introducao .item .icon-holder {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+.introducao .item .icon-holder .fa {
+  font-size: 24px;
+  color: #074f66;
+}
+.introducao .item .content {
+  padding-left: 60px;
+}
+.introducao .item .content .sub-title {
+  margin-top: 0;
+  color: #074f66;
+  font-size: 18px;
+}
+/* ======= MÓDULO I ======= */
+.moduloI {
+  padding: 30px 0;
+  background: #17baef;
+  color: #fff;
+}
+.moduloI .title {
+  color: #074f66;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.moduloI a {
+  color: #074f66;
+}
+.moduloI a:hover {
+  color: #042a36;
+}
+.moduloI .feature-list li {
+  margin-bottom: 10px;
+  color: #074f66;
+}
+.moduloI .feature-list li .fa {
+  margin-right: 5px;
+  color: #fff;
+}
+/* ======= PROFESSORES ======= */
+.professores {
+  padding: 20px 0;
+  /*background: #f5f5f5;*/
+  margin-bottom: 150px;
+}
+.professores .title {
+  color: #074f66;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.professores .intro {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.professores .item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.professores .item .icon-holder {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+.professores .item .icon-holder .fa {
+  font-size: 24px;
+  color: #074f66;
+}
+.professores .item .content {
+  padding-left: 60px;
+}
+.professores .item .content .sub-title {
+  margin-top: 0;
+  color: #074f66;
+  font-size: 18px;
+}
+/* ======= MÓDULO II ======= */
+.moduloII {
+  padding: 30px;
+  background: #fff;
+  color: #fff;
+}
+.moduloII .moduloII-inner {
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 400px;
+}
+/* ======= MODULO III =======*/
+.moduloIII {
+  padding: 30px;
+  background: #fff;
+  color: #fff;
+}
+.moduloIII .moduloIII-inner {
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 400px;
+}
+/* ======= MODULO IV ======= */
+.moduloIV {
+  padding: 30px;
+  background: #fff;
+  color: #fff;
+}
+.moduloIV .moduloIV-inner {
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 400px;
+}
+
+/* ======= MÓDULO V ======= */
+.moduloV {
+  padding: 30px;
+  background: #fff;
+  color: #fff;
+}
+.moduloV .moduloV-inner {
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 400px;
+}
+/* ======= CONTATO ======= */
+.contato {
+  padding: 195px 0;
+  background: #17baef;
+  color: #fff;
+}
+.contato .contato-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.contato .title {
+  color: #074f66;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.contato .intro {
+  margin-bottom: 60px;
+}
+.contato a {
+  color: #074f66;
+}
+.contato a:hover {
+  color: #042a36;
+}
+.contato .author-message {
+  position: relative;
+  margin-bottom: 60px;
+}
+.contato .author-message .profile {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  width: 100px;
+  height: 100px;
+}
+.contato .author-message .profile img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.contato .author-message .speech-bubble {
+  margin-left: 155px;
+  margin-right: 165px;
+  background: #10b2e7;
+  color: #074f66;
+  padding: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: relative;
+}
+.contato .author-message .speech-bubble .sub-title {
+  color: #074f66;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.contato .author-message .speech-bubble a {
+  color: #fff;
+}
+.contato .author-message .speech-bubble:after {
+  position: absolute;
+  left: -10px;
+  top: 60px;
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #10b2e7;
+}
+.contato .author-message .speech-bubble .source {
+  margin-top: 30px;
+}
+.contato .author-message .speech-bubble .source a {
+  color: #074f66;
+}
+.contato .author-message .speech-bubble .source .title {
+  color: #0c86ae;
+}
+.contato .info .sub-title {
+  color: #0e98c5;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.contato .social-icons {
+  list-style: none;
+  padding: 10px 0;
+  margin-bottom: 0;
+  display: inline-block;
+  margin: 0 auto;
+}
+.contato .social-icons li {
+  float: left;
+}
+.contato .social-icons li.last {
+  margin-right: 0;
+}
+.contato .social-icons a {
+  display: inline-block;
+  background: #0c86ae;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  padding-top: 12px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-right: 8px;
+  float: left;
+}
+.contato .social-icons a:hover {
+  background: #e6ad14;
+}
+.contato .social-icons a .fa {
+  color: #fff;
+}
+.contato .social-icons a .fa:before {
+  font-size: 26px;
+  text-align: center;
+  padding: 0;
+}
+/* ======= RODAPÉ ======= */
+.footer {
+  padding: 15px 0;
+  background: #042a36;
+  color: #fff;
+}
+.footer .copyright {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.footer .fa-heart {
+  color: #fb866a;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .header .main-nav button {
+    margin-right: 0;
+  }
+  .header .main-nav .navbar-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .principal .btns .btn {
+    margin-right: 0;
+    clear: both;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .principal .title {
+    padding: 15px;
+    font-size: 66px;
+  }
+  .principal .meta {
+    margin-top: 60px;
+  }
+  .principal .meta li {
+    float: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .contato .author-message {
+    text-align: center;
+  }
+  .contato .author-message .profile {
+    position: static;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .contato .author-message .speech-bubble {
+    margin-left: 0;
+  }
+  .contato .author-message .speech-bubble:after {
+    display: none;
+  }
+  .contato .social-icons a {
+    width: 36px;
+    height: 36px;
+    padding-top: 7px;
+    margin-right: 2px;
+  }
+  .contato .social-icons a .fa:before {
+    font-size: 18px;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+
+/* ======= MATÉRIAS ======= */
+.Matérias {
+  padding: 30px 0;
+  background: #074f66;
+}
+/* O container geral define a perspectiva */  
+.flip-container { 
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  -ms-transform: perspective(1000px);
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d; 
+  -ms-transform-style: preserve-3d; 
+  box-shadow: 1px 1px 4px black;
+  border: px solid #ccc;
+} 
+.flip-container img {
+  width: 100%;   
+  height: 100%;
+          
+}
+
+/* vira os containers frente e verso quando o mouse passa em cima */
+.flip-container:hover .flipper, .flip-container.hover .flipper {      
+  transform: rotateY(180deg);   
+}    
+.flip-container, .front, .back {    
+  width: 280px;   
+  height: 250px;  
+}
+
+/* define a velocidade da transição */
+.flipper {    
+  transition: 0.6s;   
+  transform-style: preserve-3d;     
+  position: relative;  
+}
+    
+/* esconde o verso durante a animação */
+.front, .back {   
+  backface-visibility: hidden;      
+  position: absolute;   
+  top: 0;   
+  left: 0;  
+}
+    
+/* frente posicionada sobre o verso */
+.front { z-index: 2;  }    
+
+/* verso inicialmente escondido */
+.back { transform: rotateY(180deg); }
+
+.pop{
+  display:none;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-150px;
+  margin-top:-100px;
+  padding:10px;
+  width:300px;
+  height:200px;
+  border:1px solid #d0d0d0
+}
+
+#Cab{
+  width: 98%;
+  float: left;
+  text-align: center;
+  font: Arial,"Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000;
+  font-size: 33px;
+  background-color: #17baef;
+}
+#Sidebar{
+  width: 2%;
+  float: right;
+  background-attachment: scroll;
+  font-size: 26px;
+  font: Arial,"Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000;
+  text-align: center;
+  background-color: #ff0000;
+}
