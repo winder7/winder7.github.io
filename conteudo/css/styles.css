@@ -189,6 +189,7 @@ pre code {
 }
 .principal .title {
   font-size: 98px;
+  font-size: 5.1vw;
   color: #074f66;
   margin-top: 0;
 }
@@ -244,7 +245,8 @@ pre code {
   padding-top: 230px; /*Altura da margem superior*/
 }
 .principalm .title {
-  font-size: 80px;
+  font-size: 98px;
+  font-size: 5.1vw;
   color: #074f66;
   margin-top: 0;
 }
@@ -631,6 +633,7 @@ pre code {
   .principal .title {
     padding: 15px;
     font-size: 66px;
+	font-size: 5.1vw;
   }
   .principal .meta {
     margin-top: 60px;
