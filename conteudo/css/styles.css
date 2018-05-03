@@ -335,7 +335,8 @@ pre code {
 /* ======= MÓDULO I ======= */
 .moduloI {
   padding: 30px 0;
-  background: #17baef;
+  background: #81D4FA;
+  /*background: #17baef;*/
   color: #fff;
 }
 .moduloI .title {
@@ -397,7 +398,7 @@ pre code {
 /* ======= MÓDULO II ======= */
 .moduloII {
   padding: 30px 0;
-  background: #00eacb;
+  background: #4FC3F7;
   color: #fff;
 }
 .moduloII .title {
@@ -429,7 +430,7 @@ pre code {
 /* ======= MODULO III =======*/
 .moduloIII {
   padding: 30px 0;
-  background: #ffb86d;
+  background: #29B6F6;
   color: #fff;
 }
 .moduloIII .title {
@@ -460,7 +461,7 @@ pre code {
 /* ======= MODULO IV ======= */
 .moduloIV {
   padding: 30px;
-  background: #fff;
+  background: #03A9F4;
   color: #fff;
 }
 .moduloIV .moduloIV-inner {
@@ -473,7 +474,7 @@ pre code {
 /* ======= MÓDULO V ======= */
 .moduloV {
   padding: 30px;
-  background: #fff;
+  background: #039BE5;
   color: #fff;
 }
 .moduloV .moduloV-inner {
@@ -528,8 +529,8 @@ pre code {
   background-clip: padding-box;
 }
 .contato .author-message .speech-bubble {
-  margin-left: 155px;
-  margin-right: 165px;
+  margin-left: 152px;
+  margin-right: center;
   background: #10b2e7;
   color: #074f66;
   padding: 30px;
