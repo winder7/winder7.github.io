@@ -464,7 +464,26 @@ pre code {
   background: #03A9F4;
   color: #fff;
 }
-.moduloIV .moduloIV-inner {
+.moduloIV .title {
+  color: #074f66;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.moduloIV a {
+  color: #074f66;
+}
+.moduloIV a:hover {
+  color: #042a36;
+}
+.moduloIV .feature-list li {
+  margin-bottom: 10px;
+  color: #074f66;
+}
+.moduloIV .feature-list li .fa {
+  margin-right: 5px;
+  color: #fff;
+}
+.moduloIV .moduloII-inner {
   padding: 30px;
   max-width: 600px;
   margin: 0 auto;
