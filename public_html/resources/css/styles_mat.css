@@ -207,7 +207,7 @@ pre code {
     margin-right: 15px;
     font-size: 18px;
     padding: 8px 30px;
-    margin-bottom: 420px;/*Tamanho do final da pagina*/
+    margin-bottom: 350px;/*Tamanho do final da pagina*/
 }
 .principal .meta {
     margin-top: 120px;
@@ -300,7 +300,6 @@ pre code {
 .introducao {
     padding: 20px 0;
     /*background: #f5f5f5;*/
-    margin-bottom: 300px;
 }
 .introducao .title {
     color: #074f66;
