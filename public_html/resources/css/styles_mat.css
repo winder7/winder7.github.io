@@ -721,6 +721,11 @@ pre code {
     margin-bottom: 8px;
     text-indent: 30px
 }
+.textonaoindent{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
 /* O container geral define a perspectiva */  
 .flip-container { 
     -webkit-perspective: 1000;
