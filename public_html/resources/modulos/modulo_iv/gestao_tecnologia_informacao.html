@@ -79,89 +79,47 @@
 
                 <hr>
 
-                <h2 class="title text-center">Mapeamento dos processos da Aplicação WEB</h2>
-
-                <p class="textonaoindent text-justify"><b>Usuário:</b> Faz login no sistema</p>
-                <p class="textonaoindent text-justify"><b>Sistema:</b> Verifica no banco de dados o usuário</p>
-                <p class="textonaoindent text-justify"><b>Sistema:</b> Se usuário estiver incorreto, retorna mensagem de erro</p>
-                <p class="textonaoindent text-justify"><b>Usuário:</b> Se esqueceu a senha, poderá recuperar senha</p>
-                <p class="textonaoindent text-justify"><b>Sistema:</b> Se usuário estiver correto, o mesmo será redirecionado para a página principal</p>
-                <p class="textonaoindent text-justify"><b>Sistema:</b> O usuário poderá selecionar cadastrar usuário, empresa, ou cadastrar patrimônio</p>
-                <p class="textonaoindent text-justify"><b>Usuário:</b> Poderá também gerenciar patrimônios e gerar relatório de depreciação</p>
-                <p class="textonaoindent text-justify"><b>Sistema:</b> Realizará o cálculo de verificação da margem de depreciação</p>
-                <p class="textonaoindent text-justify"><b>Usuário:</b> Funcionário emite relatório</p>
-                <p class="textonaoindent text-justify"><b>Sistema:</b> O relatório gerado, poderá ser baixado pelo usuário em variados formatos</p>
-                <p class="textonaoindent text-justify"><b>Usuário:</b> Poderá deslogar do sistema</p>
-
-                <h2 class="title text-center">Fluxograma</h2>
-                <img src="../../../resources/img/modulo_iv/gestao_processos/01_fluxograma.png" alt="" style="width: 70%"><br><br>
-                <img src="../../../resources/img/modulo_iv/gestao_processos/02_fluxograma.png" alt="" style="width: 70%"><br><br>
-                <img src="../../../resources/img/modulo_iv/gestao_processos/03_fluxograma.png" alt="" style="width: 70%"><br><br>
-                
-
-                <h2 class="title text-center">Diagrama de Causa e Efeito</h2>
-                <img src="../../../resources/img/modulo_iv/gestao_processos/04_diagrama_causa_efeito.png" alt="" style="width: 82%"><br><br>
-                
-                <h2 class="title text-center">Ciclo PDCA</h2>
-                <img src="../../../resources/img/modulo_iv/gestao_processos/05_ciclo_pdca.png" alt="" style="width: 82%"><br><br>
-                
-                <h2 class="title text-center">1ª etapa: Plan (planejar)</h2>
-                <p class="textonaoindent text-justify"><b>Definir Metas:</b></p>
+                <h2 class="title text-center">Acordo de nível de serviço (ANS)</h2>
                 <p class="materias text-justify">
-                    - Ser referência como melhor aplicativo para cálculo de depreciação;
+                    Um Acordo de Nível de Serviço (ANS), Contrato de Nível de Serviço ou Garantia do Nível de Serviço (SLA, do inglês Service Level Agreement)
+                    é um compromisso assumido por um prestador de serviços de TI perante um cliente. Este compromisso descreve o serviço de TI, os níveis de
+                    qualidade que devem ser garantidos, as responsabilidades das partes e eventuais compensações quando os níveis de qualidade não forem atingidos.
                 </p>
+
                 <p class="materias text-justify">
-                    - Interface gráfica, simples e objetiva, proporcionando rapidez na execução.
+                    Segundo a norma brasileira ABNT NBR ISO/IEC 20.000-1:2011, esse documento deve ser acordado entre os requisitantes (ou interessados em um determinado
+                    serviço de TI) e o responsável pelos serviços de TI da organização, e deve ser revisado periodicamente para certificar-se de que continua adequado
+                    ao atendimento das necessidades de negócio da organização.
+                </p>
+
+                <p class="materias text-justify">
+                    Na atual versão da biblioteca ITIL (versão 3), o ANS insere-se no contexto dos processos de projeto de serviço (service design), especificamente
+                    no processo SLM (Service Level Management, ou gerenciamento de nível de serviços). O SLM envolve a negociação, o acordo e a apropriada documentação
+                    de níveis de serviço que atendam às necessidades do negócio, permitindo a entrega de serviços de TI com a qualidade esperada. É exatamente nesse
+                    contexto que o ANS tem fundamental importância, pois é nele que estarão definidos, aceitos e formalizados os níveis de serviço esperados pelo cliente de TI.
+                </p>
+
+
+                <h2 class="title text-center">Objetivo</h2>
+
+                <p class="materias text-justify">
+                    Elaborar os acordos ou contratos de Nível de Serviço ou de Operação para a aplicação a ser desenvolvida. No cenário proposto, os alunos 
+                    deverão criar um Contrato de Desenvolvimento e Manutenção do Software, um Acordo de Treinamento para os funcionários da empresa na qual 
+                    será realizada a implantação do software e um Acordo ou Contrato de infraestrutura (definir se a estrutura dos servidores de aplicação, 
+                    banco de dados ebackup serão de responsabilidade da contratante, da contratada ou da terceirizada).
                 </p><br>
-                
-                <p class="textonaoindent text-justify"><b>Método:</b></p>
-                <p class="materias text-justify">
-                    - Automatizar aplicativo, buscando componentes do mais alto nível;
-                </p>
-                <p class="materias text-justify">
-                    - Usar interface básica, para todos os níveis de usuários saberem manusear a aplicação;
-                </p>
-                <p class="materias text-justify">
-                    - Usar ferramenta Apache Maven para melhor execução da aplicação;
-                </p>
-                <p class="materias text-justify">
-                    - Buscar sempre aperfeiçoar a aplicação, com o objetivo de torna-la mais eficaz.
-                </p>
-                
-                
-                <h2 class="title text-center">2ª etapa: Do (Executar)</h2>
-                <p class="textonaoindent text-justify"><b>Treinamento:</b></p>
-                <p class="materias text-justify">
-                    - Aplicar treinamento para os programadores a cada 6 (seis) meses, buscando inovar as aplicações, que proporcione a melhor execução da aplicação.
-                </p>
-                
-                <h2 class="title text-center">3ª etapa: Check (Checar)</h2>
-                <p class="textonaoindent text-justify"><b>Checar Metas:</b></p>
-                <p class="materias text-justify">
-                    - Verificar se os métodos estão sendo executados corretamente;
-                </p>
-                <p class="materias text-justify">
-                    - Usar interface básica, para todos os níveis de usuários saberem manusear a aplicação;
-                </p>
-                <p class="materias text-justify">
-                    - Verificar se o treinamento foi eficaz;
-                </p>
-                <p class="materias text-justify">
-                    - Verificar o feedback dos usuários para verificar se a aplicação obteve melhora.
-                </p>
 
-                <h2 class="title text-center">4ª etapa: Action (Ação)</h2>
-                <p class="textonaoindent text-justify"><b>Checar Metas:</b></p>
-                <p class="materias text-justify">
-                    - Corrigir processos com eventuais problemas;
-                </p>
-                <p class="materias text-justify">
-                    - Buscar resoluções para eventuais problemas futuros;
-                </p>
-                <p class="materias text-justify">
-                    - Se necessário aplicar o ciclo PDCA novamente.
-                </p><br><br>
-                
+                <a href="../../../resources/pdf/modulo_iv/gestao_tecnologia_informacao/contrato_Infraestrutura.pdf" target="_blank">
+                    <button type="button" class="btn btn-primary btn-lg" id="download">Infraestrutura</button>
+                </a>
+                <a href="../../../resources/pdf/modulo_iv/gestao_tecnologia_informacao/contrato_manutencao.pdf" target="_blank">
+                    <button type="button" class="btn btn-primary btn-lg" id="download">Manutenção</button>
+                </a>
+                <a href="../../../resources/pdf/modulo_iv/gestao_tecnologia_informacao/contrato_treinamento.pdf" target="_blank">
+                    <button type="button" class="btn btn-primary btn-lg" id="download">Treinamento</button>
+                </a>
+                <br>
+                <br>
                 <hr>
                 <hr>
             </div>
