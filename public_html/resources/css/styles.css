@@ -485,7 +485,7 @@ pre code {
     margin-right: 5px;
     color: #fff;
 }
-.moduloIV .moduloII-inner {
+.moduloIV .moduloIV-inner {
     padding: 30px;
     max-width: 600px;
     margin: 0 auto;
@@ -496,6 +496,25 @@ pre code {
 .moduloV {
     padding: 30px;
     background: #039BE5;
+    color: #fff;
+}
+.moduloV .title {
+    color: #074f66;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.moduloV a {
+    color: #074f66;
+}
+.moduloV a:hover {
+    color: #042a36;
+}
+.moduloV .feature-list li {
+    margin-bottom: 10px;
+    color: #074f66;
+}
+.moduloV .feature-list li .fa {
+    margin-right: 5px;
     color: #fff;
 }
 .moduloV .moduloV-inner {
