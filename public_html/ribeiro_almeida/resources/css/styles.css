@@ -17,6 +17,11 @@ body {
     height: auto;
 }
 
+.max-page {
+    max-width: fit-content;
+    height: auto;
+}
+
 .container {
     width: fit-content;
     height: auto;
