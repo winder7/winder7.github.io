@@ -9,7 +9,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     height: 100%;
-    overflow: hidden;
 }
 
 .responsive {
@@ -23,10 +22,8 @@ body {
 }
 
 .container {
-    width: fit-content;
+    width: 900px;
     height: auto;
-    position: relative;
-    border: 3px solid green;
     text-align: center;
 }
 
@@ -157,3 +154,9 @@ b{
     opacity: 1;
 }
 
+.materias{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    text-indent: 30px
+}
